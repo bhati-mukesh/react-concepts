@@ -1,0 +1,27 @@
+.OTP-App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.otp-input-box {
+  display: inline;
+  width: 35px;
+  height: 35px;
+  margin: 0 5px;
+  text-align: center;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.otp-input-box:focus {
+  border: 1px solid greenyellow;
+}
+
+.otp-container {
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+
+.entered-otp {
+  margin-top: 25px;
+}
