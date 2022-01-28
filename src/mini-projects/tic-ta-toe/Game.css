@@ -1,0 +1,31 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.board-row {
+  display: flex;
+  flex-direction: row;
+  width: 50%;
+  justify-content: center;
+  align-items: center;
+  margin: auto auto;
+}
+
+.board-item {
+  border: 1px solid steelblue;
+  padding: 15px;
+  margin: 5px;
+  font-size: 20px;
+  font-weight: 900px;
+  min-height: 20px;
+  min-width: 20px;
+}
+
+.winner-banner {
+  min-height: 35px;
+}
+
+.reset-button {
+  margin-top: 20px;
+}
