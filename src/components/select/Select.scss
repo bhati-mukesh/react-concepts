@@ -1,0 +1,37 @@
+.dropdown {
+  width: 400px;
+  margin: 0 auto;
+  border: 1px solid gray;
+  position: relative;
+  text-align: left;
+
+  .select-btn-icon {
+    float: right;
+  }
+
+  .dropdown-btn {
+    border: 1px solid gray;
+    box-shadow: 1px 1px 5px;
+    padding: 5px;
+    padding-left: 10px;
+  }
+
+  .dropdown-option-container {
+    transition: all 0.5s;
+    position: absolute;
+    width: 400px;
+    margin: 0 auto;
+    border: 1px solid gray;
+
+    .dropdown-option {
+      padding: 5px;
+      background: white;
+
+      &:hover {
+        padding-left: 10px;
+        background: rgb(224, 216, 216);
+        transition: all 0.2s;
+      }
+    }
+  }
+}
