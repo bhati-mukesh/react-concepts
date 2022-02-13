@@ -1,4 +1,5 @@
 import "./App.css";
+// import Accordion from "./components/Accordion";
 // import Select from "./components/select";
 // import Counter from "./hoc/counter";
 // import FetcherExample from "./renderProps/fetcher-1";
@@ -15,6 +16,7 @@ function App() {
         {/* <OTPScreen /> */}
         {/* <TicTacToe /> */}
         {/* <Select /> */}
+        {/* <Accordion /> */}
       </div>
       {/* <FileExplorer /> */}
     </>
