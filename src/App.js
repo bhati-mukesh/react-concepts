@@ -6,6 +6,7 @@ import "./App.css";
 // import OTPScreen from "./components/otpScreen";
 // import TicTacToe from "./mini-projects/tic-ta-toe";
 // import FileExplorer from "./mini-projects/FileExplorer";
+import Debounce from "./mini-projects/debouncing/Search";
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
         {/* <TicTacToe /> */}
         {/* <Select /> */}
         {/* <Accordion /> */}
+        <Debounce />
       </div>
       {/* <FileExplorer /> */}
     </>
