@@ -1,0 +1,34 @@
+.tabs-outer-container {
+  width: 500px;
+  height: 500px;
+  border: 1px solid springgreen;
+}
+
+.tabs-container {
+  display: flex;
+  justify-content: flex-start;
+  cursor: pointer;
+}
+
+.tab-container {
+  width: 100px;
+  height: 40px;
+  border: 1px solid gray;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.active-tab {
+  background: chocolate;
+  border-bottom: 0;
+}
+
+.panel-container {
+  border: 1px solid tan;
+  min-height: 457px;
+}
+
+.activa {
+  background-color: teal;
+}
