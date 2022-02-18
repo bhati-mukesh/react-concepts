@@ -1,4 +1,5 @@
 import "./App.css";
+import StopWatch from "./mini-projects/stop-watch/index";
 // import Accordion from "./components/Accordion";
 // import Select from "./components/select";
 // import TabLayout from "./components/TabLayout";
@@ -21,6 +22,7 @@ function App() {
         {/* <Accordion /> */}
         {/* <Debounce /> */}
         {/* <TabLayout /> */}
+        <StopWatch />
       </div>
       {/* <FileExplorer /> */}
     </>
